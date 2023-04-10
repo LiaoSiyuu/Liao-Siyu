@@ -48,12 +48,12 @@ const BLOG = {
     'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
   ],
   FONT_SANS: [// 无衬线字体
-    'Bitter', '"LXGW WenKai"','"PingFang SC"', '-apple-system', 'BlinkMacSystemFont', '"Hiragino Sans GB"',
-    '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Segoe UI"', '"Noto Sans SC"', 'HarmonyOS_Regular',
+    '"Noto Sans SC"', 'Bitter', '"LXGW WenKai"','"PingFang SC"', '-apple-system', 'BlinkMacSystemFont', '"Hiragino Sans GB"',
+    '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Segoe UI"', 'HarmonyOS_Regular',
     '"Microsoft YaHei"', '"Helvetica Neue"', 'Helvetica', '"Source Han Sans SC"',
     'Arial', 'sans-serif', '"Apple Color Emoji"'],
   FONT_SERIF: [// 衬线字体 
-    'Bitter', '"LXGW WenKai"','"Noto Serif SC"', 'SimSun', '"Times New Roman"', 'Times', 'serif',
+    '"Noto Serif SC"', 'Bitter', '"LXGW WenKai"','SimSun', '"Times New Roman"', 'Times', 'serif',
     '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Apple Color Emoji"'],
   FONT_AWESOME: '/css/all.min.css', // font-awesome 字体图标地址
   
