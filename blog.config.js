@@ -56,13 +56,12 @@ const BLOG = {
     'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
   ],
   FONT_SANS: [// 无衬线字体
-   '"Ping Fang SC"', 'Times', '"Noto Sans SC"', '"Nunito Sans"', '"Apple Color Emoji"'],
+   '"PingFang SC"', '"-apple-system"','BlinkMacSystemFont','"Apple Color Emoji"','"Segoe UI Emoji"','"Noto Sans SC"','"Nunito Sans"'],
+  
   FONT_SERIF: [// 衬线字体 
     '"Noto Serif SC"', 'Bitter', '"LXGW WenKai"','SimSun', '"Times New Roman"', 'Times', 'serif',
     '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Apple Color Emoji"'],
   FONT_AWESOME: '/css/all.min.css', // font-awesome 字体图标地址
-
-  
   
 //   // 网站默认使用PingFangSC及NotoSansSC，
 //   // 如需自定义字体，请将CUSTOM_FONT改为 true，并将CUSTOM_FONT_URL改为你的字体CSS地址，同时在CUSTOM_FONT_SANS与CUSTOM_FONT_SERIF中指定你的font-family
