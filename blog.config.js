@@ -49,7 +49,6 @@ const BLOG = {
     'https://fonts.googleapis.com/css?family=Bitter&display=swap', // Bitter 用作英文数字的字体
     'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
   ],
-  font-family: 'Noto Serif SC', serif;
   FONT_SANS: [// 无衬线字体
     '"Noto Sans SC"', 'Bitter', '"LXGW WenKai"','"PingFang SC"', '-apple-system', 'BlinkMacSystemFont', '"Hiragino Sans GB"',
     '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Segoe UI"', 'HarmonyOS_Regular',
