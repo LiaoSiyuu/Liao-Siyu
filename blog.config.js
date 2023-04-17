@@ -56,7 +56,7 @@ const BLOG = {
     'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
   ],
   FONT_SANS: [// 无衬线字体
-    '"Noto Sans SC"', '"Nunito Sans"', '"Apple Color Emoji"'],
+   '"Ping Fang SC"', 'Times', '"Noto Sans SC"', '"Nunito Sans"', '"Apple Color Emoji"'],
   FONT_SERIF: [// 衬线字体 
     '"Noto Serif SC"', 'Bitter', '"LXGW WenKai"','SimSun', '"Times New Roman"', 'Times', 'serif',
     '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Apple Color Emoji"'],
