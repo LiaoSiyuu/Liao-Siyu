@@ -44,9 +44,12 @@ const BLOG = {
 // 网站字体
   FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
   FONT_URL: [// 字体CSS
+    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300&display=swap',
+    'https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans',
     'https://fonts.googleapis.com/css?family=Bitter&display=swap', // Bitter 用作英文数字的字体
     'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
   ],
+  font-family: 'Noto Serif SC', serif;
   FONT_SANS: [// 无衬线字体
     '"Noto Sans SC"', 'Bitter', '"LXGW WenKai"','"PingFang SC"', '-apple-system', 'BlinkMacSystemFont', '"Hiragino Sans GB"',
     '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Segoe UI"', 'HarmonyOS_Regular',
@@ -56,6 +59,8 @@ const BLOG = {
     '"Noto Serif SC"', 'Bitter', '"LXGW WenKai"','SimSun', '"Times New Roman"', 'Times', 'serif',
     '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Apple Color Emoji"'],
   FONT_AWESOME: '/css/all.min.css', // font-awesome 字体图标地址
+
+
   
   
 //   // 网站默认使用PingFangSC及NotoSansSC，
