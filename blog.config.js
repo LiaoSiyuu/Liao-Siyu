@@ -48,7 +48,7 @@ const BLOG = {
 //     'Arial', 'sans-serif', '"Apple Color Emoji"'],
   
 // 网站字体
-  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
+  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
   FONT_URL: [// 字体CSS
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300&display=swap',
     // 'https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans',
