@@ -57,10 +57,10 @@ const BLOG = {
     'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
   ],
   FONT_SANS: [// 无衬线字体
-   '"LXGW WenKai", "PingFang SC"', '"-apple-system"','BlinkMacSystemFont','"Apple Color Emoji"','"Segoe UI Emoji"','"Noto Sans SC"','"Nunito Sans"'],
+   '"LXGW WenKai"', '"PingFang SC"', '"-apple-system"','BlinkMacSystemFont','"Apple Color Emoji"','"Segoe UI Emoji"','"Noto Sans SC"','"Nunito Sans"'],
   
   FONT_SERIF: [// 衬线字体 
-    '"Noto Serif SC"', 'Bitter', '"LXGW WenKai"','SimSun', '"Times New Roman"', 'Times', 'serif',
+    '"Noto Sans SC"', '"Noto Serif SC"', 'Bitter', '"LXGW WenKai"','SimSun', '"Times New Roman"', 'Times', 'serif',
     '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Apple Color Emoji"'],
   FONT_AWESOME: '/css/all.min.css', // font-awesome 字体图标地址
   
