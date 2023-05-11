@@ -6,7 +6,7 @@ const BLOG = {
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新内容缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
   THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 主题， 支持 ['next','hexo',"fukasawa','medium','example'] @see https://preview.tangly1024.com
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || true, // 是否显示切换主题按钮
-  LANG: process.env.NEXT_PUBLIC_LANG || 'en-US', // 默认语言设置 e.g 'zh-CN','en-US'  see /lib/lang.js for more.
+  LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // 默认语言设置 e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: 2023, // e.g if leave this empty, current year will be used.
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
 
@@ -48,15 +48,16 @@ const BLOG = {
 //     'Arial', 'sans-serif', '"Apple Color Emoji"'],
   
 // 网站字体
-  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
+  FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans', // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
   FONT_URL: [// 字体CSS
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300&display=swap',
     // 'https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans',
     // 'https://fonts.googleapis.com/css?family=Bitter&display=swap', // Bitter 用作英文数字的字体
+    'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
     'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css'
   ],
   FONT_SANS: [// 无衬线字体
-   '"PingFang SC"', '"-apple-system"','BlinkMacSystemFont','"Apple Color Emoji"','"Segoe UI Emoji"','"Noto Sans SC"','"Nunito Sans"'],
+   '"LXGW WenKai", "PingFang SC"', '"-apple-system"','BlinkMacSystemFont','"Apple Color Emoji"','"Segoe UI Emoji"','"Noto Sans SC"','"Nunito Sans"'],
   
   FONT_SERIF: [// 衬线字体 
     '"Noto Serif SC"', 'Bitter', '"LXGW WenKai"','SimSun', '"Times New Roman"', 'Times', 'serif',
